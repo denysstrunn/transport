@@ -1,0 +1,88 @@
+
+
+/*  Фон */
+body{
+    background-image: url("./images/bg_img_2.jpg");
+    background-size: cover;
+  }
+
+/* Малюнок машини */
+.car-img {
+    width: 26%;
+    border-radius: 50%;
+    box-shadow: 0  0 30px rgb(83, 81, 81);
+    padding: 0.2em;
+    margin-bottom: 1em; 
+}
+/* Шрифт <h1> */
+#h1_text {
+    background-color: rgba(13, 16, 180, 0.705);
+    color: rgb(248, 248, 248);
+    border-radius: 15px;
+    background-clip: padding-box;
+    align-items: center;
+}
+/* Шрифт <h2> */
+#my_contact_text {
+    background-color: rgba(253, 249, 4, 0.767);
+    color: rgb(0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 17px;
+}
+/* Шрифт <p> */
+h4 {
+    color: white;
+    background-color: black;
+    background-clip: padding-box;
+    border-radius: 16px;
+    font-size: 1.2rem;
+}
+
+/* Нижче іконки та посилання */
+
+/* Посилання на Gmail */
+#gmail {
+    background-color: white;
+    background-clip: padding-box;
+    color: black;
+    height: 36px;
+    border-radius: 60px;
+}
+/* Посилання на Instargam */
+#instagram {
+    background-color:white;
+    background-clip: padding-box;
+    color: black;
+    height: 36px;
+    border-radius: 60px;
+}
+/* Посиляння на мобільний */
+#phone {
+    background-color:white;
+    background-clip: padding-box;
+    color:black;
+    height: 36px;
+    border-radius: 60px;
+}
+/* Іконка Gmail */
+#gmail_image {
+    color: rgb(255, 0, 0);
+    height: 3em;
+
+}
+/* Іконка Instagram */
+#instagram_image {
+    color: rgb(0, 247, 247);
+    height: 3em;
+}
+
+/* Іконка мобільного */
+#phone_image {
+    color: rgb(0, 255, 0);
+    height: 3em;
+}
+
+/* Налаштування листа (список) */
+ul > li {
+    list-style: none;
+}
